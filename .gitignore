@@ -1,0 +1,33 @@
+# Ignore the virtual environment
+venv/
+.env
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+db.sqlite3
+/media/
+*.sqlite3
+
+### Logs
+*.log
+
+# Ignore compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+### Node.js related
+node_modules/
+*.css.map
+*.ts
+
+static/
+.DS_Store
+*.ipynb
